@@ -102,7 +102,7 @@ def get_services():
 #                       GET SERVICE DETAILS 
 #---------------------------------------------------------------------------------------------------
 
-@api.route('/service/<int:ervice_id>', methods=['GET'])
+@api.route('/service/<int:service_id>', methods=['GET'])
 def get_service(service_id):
    
     service = Services.query.filter_by(id=service_id).first()

@@ -21,10 +21,10 @@ export const Navbar = () => {
 	};
 
 	return (
-		<nav className="navbar" style={{ backgroundColor: "#29362f" }}>
+		<nav className="navbar" style={{ backgroundColor: "#7565A8" }}>
         <div className="container">
           <Link to="/" style={{ textDecoration: "none" }}>
-            <div className="navbar__logo mb-0 ">Safari Adventure</div>
+            <div className="navbar__logo mb-0 ">Car Wash</div>
           </Link>
           
           <div className="ml-auto">
