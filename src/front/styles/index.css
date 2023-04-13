@@ -264,6 +264,15 @@ body {
   box-shadow: 2px 4px 6px 4px rgba(0, 0, 0, 0.3);
 }
 
+.imageicon {
+  height: 80px;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+
+.homelogo {
+  max-height: 350px;
+}
 /*--------------------------------------------------NAVBAR---------------------------------------------------------------------------*/
 
 .navbar__logo{

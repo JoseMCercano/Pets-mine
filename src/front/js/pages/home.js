@@ -3,7 +3,10 @@ import { Context } from "../store/appContext";
 import { Link } from "react-router-dom";
 import Carousel from "react-bootstrap/Carousel";
 import { Row, Col } from "react-bootstrap";
-
+import homelogo2 from "../../img/logo11.png";
+import icon1 from "../../img/dogicon1.png";
+import icon2 from "../../img/scan.png";
+import icon3 from "../../img/couch.png";
 
 import "../../styles/home.css";
 
@@ -13,16 +16,16 @@ export const Home = () => {
   return (
     <div className="pagesBackground">
       <div className="main-content1 container">
-        <div className="margintop d-flex">
-          <div className="col col-4">
+        <div className="margintop row d-flex">
+          <div className="col ">
             <img
               className="homelogo marginleftbig mb-5"
-              src="{homelogo2}"
+              src={homelogo2}
             ></img>
           </div>
           <div className="col  col-8 d-flex flex-column align-items-start justify-content-center">
-            <h1 className="homehero mt-4">Car Wash</h1>
-            <h2 className="mb-3">Home Service</h2>
+            <h1 className="homehero mt-4">Runaway Pets</h1>
+            <h2 className="mb-3">A scan away from home</h2>
 
             {/* BUTTONS */}
             <div className="d-flex align-items-center justify-content-between mb-5">
@@ -42,7 +45,7 @@ export const Home = () => {
           </div>
         </div>
 
-        <h2 className="text-center mb-5 mt-5">Keep always you car like new with only 3 steps!</h2>
+        <h2 className="text-center mb-5 mt-5">Never lose track of your pet again!</h2>
         {/* <div className="row m-2">
               <img className="mt-2 mb-3 p-1 col-xl-4 col-12" src="{store.packageDetail.url7}"></img>
               <img className="mt-2 mb-3 p-1 col-xl-4 col-12" src="{store.packageDetail.url8}"></img>
@@ -51,23 +54,23 @@ export const Home = () => {
 
         <div className="steps row g-3">
           <div className="col mt-2 mb-3 p-2 col-xl-4 col-12">
-            <div className="step1  ">
-              <img className="imageicon" src="{icon1}"></img>
-              <h4>1 Create an account or login</h4>
+            <div className="step1 d-flex align-items-center">
+              <img className="imageicon" src={icon1}></img>
+              <h4>Attach our QRCode tag to your pet's collar</h4>
             </div>
           </div>
 
           <div className="col mt-2 mb-3 p-2 col-xl-4 col-12">
-            <div className="step2">
-              <img className="imageicon" src="{icon1}"></img>
-              <h4 className="purple">2 Choose one of our services</h4>
+            <div className="step2 d-flex align-items-center">
+              <img className="imageicon" src={icon2}></img>
+              <h4 className="purple ml-3">If someone finds your pet, they just have to scan it. <br></br>No app install needed!</h4>
             </div>
           </div>
 
           <div className="col mt-2 mb-3 p-2 col-xl-4 col-12">
-            <div className="step3">
-              <img className="imageicon" src="{icon1}"></img>
-              <h4>3 Get your car clean</h4>
+            <div className="step3 d-flex align-items-center">
+              <img className="imageicon" src={icon3}></img>
+              <h4>Contact the finder and heve your best friend back home!</h4>
             </div>
           </div>
         </div>
